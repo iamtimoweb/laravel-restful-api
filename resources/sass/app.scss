@@ -1,0 +1,16 @@
+// import custom variable above the bootstrap file
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+@import "../../public/css/fonts.css";
+
+body {
+    font-family: Corben-Regular, sans-serif;
+    background: #eee;
+}
+
+.form-floating {
+    & > .form-control {
+        padding: 0.5rem 0.35rem;
+    }
+}
